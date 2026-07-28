@@ -1,15 +1,17 @@
 "use client";
 
-import { useSearchParams, useRouter } from "next/navigation";
+import { useRouter, useSearchParams } from "next/navigation";
 import { useState } from "react";
 
 export function LoginForm() {
-  const searchParams = useSearchParams();
   const router = useRouter();
+  const searchParams = useSearchParams();
 
-  // שאר קוד ההתחברות הקיים
+  // שאר קוד ההתחברות
 
   return (
-    // כל ה-JSX של מסך הכניסה
+    <main>
+      {/* מסך ההתחברות */}
+    </main>
   );
 }
